@@ -4,7 +4,6 @@ function convertTemperature() {
     let unit = document.getElementById("unit").value;
     let result = document.getElementById("result");
 
-    // Validate input
     if (tempInput === "" || isNaN(tempInput)) {
         result.innerHTML = "Please enter a valid number!";
         result.style.color = "red";
