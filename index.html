@@ -2,89 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Web Development Projects</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Development Projects</title>
 
     <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
+        body {
+            margin: 0;
             font-family: Arial, sans-serif;
-        }
-
-        body{
-            height:100vh;
-            display:flex;
-            justify-content:center;
-            align-items:center;
             background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
-        .container{
-            background:white;
-            padding:50px;
-            border-radius:15px;
-            width:400px;
-            text-align:center;
-            box-shadow:0 15px 30px rgba(0,0,0,0.3);
+        .container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            width: 420px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.25);
         }
 
-        h1{
-            margin-bottom:30px;
-            color:#333;
+        h1 {
+            margin-bottom: 30px;
+            color: #333;
         }
 
-        .task-btn{
-            display:block;
-            text-decoration:none;
-            background:#667eea;
-            color:white;
-            padding:15px;
-            margin:15px 0;
-            border-radius:8px;
-            font-size:16px;
-            font-weight:bold;
-            transition:0.3s ease;
+        .btn {
+            display: block;
+            text-decoration: none;
+            background: #667eea;
+            color: white;
+            padding: 14px;
+            margin: 15px 0;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: 0.3s;
         }
 
-        .task-btn:hover{
-            background:#4b5bdc;
-            transform:translateY(-4px);
+        .btn:hover {
+            background: #4b5bdc;
+            transform: translateY(-3px);
         }
 
-        .task-btn:active{
-            transform:scale(0.95);
-        }
-
-        footer{
-            margin-top:20px;
-            font-size:14px;
-            color:#666;
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1>My Web Development Tasks</h1>
+<div class="container">
+    <h1>My Web Development Tasks</h1>
 
-        <a href="task1/" class="task-btn">
-            🌐 Task 1 - Landing Page
-        </a>
+    <a href="task1/" class="btn">Task 1 - Landing Page</a>
+    <a href="task2/" class="btn">Task 2 - Portfolio</a>
+    <a href="task3/" class="btn">Task 3 - Temperature Converter</a>
 
-        <a href="task2/" class="task-btn">
-            👤 Task 2 - Personal Portfolio
-        </a>
-
-        <a href="task3/" class="task-btn">
-            🌡️ Task 3 - Temperature Converter
-        </a>
-
-        <footer>
-            © 2026 Haridas Sai Ganesh
-        </footer>
-    </div>
+    <footer>
+        © 2026 Haridas Sai Ganesh
+    </footer>
+</div>
 
 </body>
 </html>
