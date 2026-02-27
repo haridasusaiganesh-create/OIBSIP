@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -10,10 +11,9 @@
     <div class="logo">My Portfolio</div>
     <nav>
         <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Skills</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
     </nav>
 </header>
 
@@ -21,13 +21,36 @@
     <div class="hero-text">
         <h1>Hi, I'm Haridas Sai Ganesh</h1>
         <h3>Web Developer</h3>
-        <p>I create simple websites using HTML and CSS.</p>
-        <button>Hire Me</button>
+        <p>I create simple and responsive websites using HTML and CSS.</p>
+        <button>Download Resume</button>
     </div>
 
     <div class="hero-image">
         <img src="profile.jpg" alt="Profile Image">
     </div>
+</section>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I am a beginner web developer learning front-end technologies.
+        I enjoy building clean and user-friendly websites.
+    </p>
+</section>
+
+<section id="skills" class="section dark">
+    <h2>My Skills</h2>
+    <div class="skills">
+        <div class="skill-box">HTML</div>
+        <div class="skill-box">CSS</div>
+        <div class="skill-box">Basic JavaScript</div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: example@gmail.com</p>
+    <p>Phone: 1234567890</p>
 </section>
 
 <footer>
