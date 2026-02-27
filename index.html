@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Web Development Projects</title>
+    <title>My Web Development Projects</title>
+
     <style>
         *{
             margin:0;
@@ -12,47 +13,52 @@
         }
 
         body{
-            background: linear-gradient(to right, #667eea, #764ba2);
             height:100vh;
             display:flex;
             justify-content:center;
             align-items:center;
-            color:white;
+            background: linear-gradient(to right, #667eea, #764ba2);
         }
 
         .container{
-            text-align:center;
             background:white;
-            color:black;
             padding:50px;
-            border-radius:10px;
-            width:350px;
-            box-shadow:0 5px 15px rgba(0,0,0,0.3);
+            border-radius:15px;
+            width:380px;
+            text-align:center;
+            box-shadow:0 10px 25px rgba(0,0,0,0.3);
         }
 
         h1{
             margin-bottom:30px;
+            color:#333;
         }
 
-        a{
+        .task-btn{
             display:block;
             text-decoration:none;
             background:#667eea;
             color:white;
-            padding:12px;
+            padding:15px;
             margin:15px 0;
-            border-radius:5px;
+            border-radius:8px;
+            font-weight:bold;
             transition:0.3s;
         }
 
-        a:hover{
+        .task-btn:hover{
             background:#4b5bdc;
+            transform:translateY(-3px);
+        }
+
+        .task-btn:active{
+            transform:scale(0.95);
         }
 
         footer{
             margin-top:20px;
             font-size:14px;
-            color:#555;
+            color:#666;
         }
     </style>
 </head>
@@ -61,15 +67,15 @@
     <div class="container">
         <h1>My Web Development Tasks</h1>
 
-        <a href="task%201/" target="_blank">
+        <a href="task1/" class="task-btn">
             🌐 Task 1 - Landing Page
         </a>
 
-        <a href="task%202/" target="_blank">
+        <a href="task2/" class="task-btn">
             👤 Task 2 - Personal Portfolio
         </a>
 
-        <a href="task%203/" target="_blank">
+        <a href="task3/" class="task-btn">
             🌡️ Task 3 - Temperature Converter
         </a>
 
